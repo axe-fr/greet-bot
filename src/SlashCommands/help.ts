@@ -13,6 +13,8 @@ export const command: SlashCommand = {
         await interaction.reply({
             embeds: [
                 new EmbedBuilder()
+                    .setTitle("Greet Boy")
+                    .setURL("https://github.com/axe-fr/greet-bot")
                     .addFields(
                         { name: '`/greet`', value: "Ajouter un salon", inline:false },
                         { name: '`/ungreet`', value: "Supprimer un salon", inline:false },
