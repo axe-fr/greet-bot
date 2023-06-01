@@ -6,7 +6,7 @@ const event: BotEvent = {
     once: true,
     async execute(client: Client) {
    
-    console.log((`Connecté ${client.user?.tag}`))
+    console.log((`Connecté ${client.user?.tag} => https://github.com/axe-fr/greet-bot`))
     },
 }
 
