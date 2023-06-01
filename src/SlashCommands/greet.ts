@@ -31,7 +31,7 @@ export const command: SlashCommand = {
             embeds: [
                 new EmbedBuilder()
                     .setTitle("Salon Ghost Ping")
-                    .setURL("https://discord.gg/genesisbot")
+                    .setURL("https://github.com/axe-fr/greet-bot")
                     .setDescription(`${list.join("\n")}`)
                     .setColor('#6200b9')
             ],
